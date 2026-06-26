@@ -1,0 +1,39 @@
+{
+    "report_generated": true,
+    "generated_at": "2026-06-26 20:46:19",
+    "comparison": {
+        "horizontal_scaling": {
+            "name": "Horizontal Scaling",
+            "meaning": "Adding more servers or machines to handle increased traffic.",
+            "example": "Adding Server_1, Server_2, and Server_3 behind a load balancer.",
+            "advantages": [
+                "High availability",
+                "Better fault tolerance",
+                "Can handle large traffic",
+                "Easy to scale for cloud applications"
+            ],
+            "disadvantages": [
+                "More complex setup",
+                "Needs a load balancer",
+                "Data synchronization can be difficult"
+            ],
+            "best_for": "Web applications, cloud platforms, and large-scale systems"
+        },
+        "vertical_scaling": {
+            "name": "Vertical Scaling",
+            "meaning": "Increasing CPU, RAM, or storage capacity of one existing server.",
+            "example": "Upgrading a server from 4 GB RAM to 16 GB RAM.",
+            "advantages": [
+                "Simple to implement",
+                "No major architecture changes",
+                "Good for small applications"
+            ],
+            "disadvantages": [
+                "Limited hardware capacity",
+                "Single point of failure",
+                "May require downtime during upgrade"
+            ],
+            "best_for": "Small applications, databases, and early-stage projects"
+        }
+    }
+}
